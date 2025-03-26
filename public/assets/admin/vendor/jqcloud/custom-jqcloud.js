@@ -1,0 +1,36 @@
+var word_list = [
+	{text: "Dashboard", weight: 13, link: "index.php"},
+	{text: "Admin", weight: 10.5},
+	{text: "Sass", weight: 9.4},
+	{text: "jQuery", weight: 5},
+	{text: "Le Rouge", weight: 4},
+	{text: "iMac", weight: 4},
+	{text: "Dashboard", weight: 3},
+	{text: "Invoice", weight: 3},
+	{text: "Chat", weight: 3, link: "chat.php"},
+	{text: "Tasks", weight: 3, link: "tasks.php"},
+	{text: "Todos", weight: 3},
+	{text: "Admin", weight: 3},
+	{text: "Graphs", weight: 2},
+	{text: "Maps", weight: 2},
+	{text: "Charts", weight: 2},
+	{text: "Tables", weight: 2},
+	{text: "Login", weight: 2, link: "login.php"},
+	{text: "eCommerce", weight: 2},
+	{text: "Best Design", weight: 2},
+	{text: "Scss", weight: 2},
+	{text: "Forms", weight: 2},
+	{text: "Calendar", weight: 1, link: "calendar.php"},
+	{text: "Documemts", weight: 1, link: "documents.php"},
+	{text: "Widgets", weight: 1},
+	{text: "Grid", weight: 1},
+	{text: "Blog", weight: 1},
+	{text: "Faq", weight: 1},
+	{text: "Contacts", weight: 1, link: "contacts.php"},
+	{text: "Timeline", weight: 1, link: "timeline.php"},
+	{text: "Gallery", weight: 1, link: "gallery.php"},
+	{text: "Dashboard", weight: 1}
+	];
+	$(function() {
+	$("#my_favorite_latin_words").jQCloud(word_list);
+	});

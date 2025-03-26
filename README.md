@@ -1,11 +1,11 @@
 # Product Managment System
 Laravel 11 Product Managment System
 
-2025-02-18
+2025-03-26
 
-git clone https://github.com/harsha198805/nwf-backend.git
+git clone https://github.com/harsha198805/Product-Management-System-Laravel.git
 
-cd nwf-backend
+cd Product-Management-System-Laravel
 
 composer install
 
